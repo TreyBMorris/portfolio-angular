@@ -1,0 +1,9 @@
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+.social-media-icons svg{
+    margin: 0 10px;
+}

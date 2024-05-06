@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body{
+    background-color: #31363F;
+}
+h1{
+    color: white;
+}
+h2 {
+    color: white;
+}
+h2.description{
+    font-size: 1.85rem;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    width: 70%;
+    margin: 0 auto 30px
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
+p{
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.small-width{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
