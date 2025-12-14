@@ -4,11 +4,10 @@ import { RouterModule } from '@angular/router';
 import { NgClass } from '@angular/common';
 
 @Component({
-  selector: 'app-nav-bar',
-  standalone: true,
-  imports: [RouterModule, RouterOutlet, NgClass],
-  templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.css'
+    selector: 'app-nav-bar',
+    imports: [RouterModule, RouterOutlet, NgClass],
+    templateUrl: './nav-bar.component.html',
+    styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
 
